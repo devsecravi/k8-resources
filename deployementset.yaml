@@ -7,6 +7,7 @@ metadata:
     environment: dev
     tier: frontend
 
+
 spec:
   replicas: 2
   selector:
@@ -24,4 +25,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable-alpine3.23-perl
+        image: nginx
