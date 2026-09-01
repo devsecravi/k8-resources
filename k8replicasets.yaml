@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: replicaset-demo
@@ -6,6 +6,7 @@ metadata:
     project: roboshop 
     environment: dev
     tier: frontend
+
 spec:
   replicas: 2
   selector:
